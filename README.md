@@ -13,7 +13,7 @@ user@host-machine:~/ cd ad-server
 
 user@host-machine:~/ad-server mvn install
 
-user@host-machine:~/ad-server /path/to/jdk/bin/java -jar target/ad-server-1.0.jar <port>
+user@host-machine:~/ad-server /path/to/jdk/bin/java -jar target/ad-server-1.0.jar \<port\>
 
 If the port is not given, it is defaulted to 80.
 
